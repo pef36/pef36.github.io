@@ -20,12 +20,10 @@ h1 {
   margin: 0;
 }
 #body-container {
-  background-color:#f7f7f7; max-width:
-  1000px; margin: auto;
+  background-color:#f7f7f7; max-width:1000px; margin: auto;
   min-height: 100vh;
-  border: 2px solid
-  #f7f7f7; border-radius:
-  25px; overflow: hidden;
+  border: 2px solid #f7f7f7;
+  border-radius: 25px; overflow: hidden;
 }
 #header {
   background-color: #0571b0;
@@ -34,9 +32,7 @@ h1 {
   float: left;
 }
 #welcome-text {
-  padding-top:
-  25px; font-size:
-  25px;
+  padding-top: 25px; font-size: 25px;
 }
 #research-interests {
   text-align: left;
@@ -45,11 +41,10 @@ h1 {
   left: 50px;
 }
 #copyright {
-bottom: 20px; margin: 0; padding:0;
-text-align: center;
-
-position: relative; left:50%;
-transform: translateX(-50%) translateY(-50%);
+  bottom: 20px; margin: 0; padding:0;
+  text-align: center;
+  position: relative; left:50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 #webmap-reviews {
   text-align: left;
