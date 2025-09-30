@@ -5,7 +5,8 @@
 // }
 var webmaps =
 [
-  ["Oil Spill Toolkit", "https://www.glo.texas.gov", "The oil spill toolkit"]
+  ["Oil Spill Toolkit", "https://www.glo.texas.gov", "The oil spill toolkit developed by Enterprise Technology Solutions is neat."],
+  ["Texas Ecosystems Analytical Mapper", "https://tpwd.texas.gov/gis/team/", "The Texas Parks and Wildlife's Landscape Ecology program is great."]
 ];
 function welcome()
   {
