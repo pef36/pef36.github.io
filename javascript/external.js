@@ -8,8 +8,14 @@ var webmaps =
   ["Oil Spill Toolkit", "https://www.glo.texas.gov", "The oil spill toolkit developed by Enterprise Technology Solutions is neat."],
   ["Texas Ecosystems Analytical Mapper", "https://tpwd.texas.gov/gis/team/", "The Texas Parks and Wildlife's Landscape Ecology program is great."]
 ];
+{
+  if(row % 2==0) {
+    console.log();
+  } else {
+    console.log();
+  }
+}
 function welcome()
-  {
     let a="Please enter your name.";
     let b= "Type you name here.";
 // A prompt box is used to prompt users to input a value before entering a page.
