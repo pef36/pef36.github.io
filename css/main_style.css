@@ -51,8 +51,3 @@ h1 {
   font-size: 25px;
   position: relative;
 }
-.leaflet-popup-content-wrapper,
-.leaflet-popup-tip
-{
-background: yellow;
-}
