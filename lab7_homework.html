@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Menu</title>
+   <script src="Lab7.js"></script>
+</head>
+<body>
+  <select id="siteSelector" onchange="openNewWindow(Basemap Gallery)">
+  <option value="https://pef36.github.io/basemap_gallery.html">Basemap Gallery</option>
+  <option value="https://pef36.github.io/dynamic_layers.html">Dynamic Layers</option>
+  <option value="https://pef36.github.io/on_event.html">On Event</option>
+  <option value="https://pef36.github.io/query_task.html">Query Task</option>
+  <option value="https://pef36.github.io/simple_mapping.html">Simple Mapping</option>
+  <option value="https://pef36.github.io/tile_layer.html">Tile Layer</option>
+</select>
+
+<button onclick="goToSelectedSite()">Go</button>
+
+<script>
+  function goToSelectedSite() {
+    const selector = document.getElementById("siteSelector");
+    const selectedUrl = selector.value;
+    if (selectedUrl) {
+      window.open(selectedUrl, '_blank');
+    }
+  }
+</script>
+</body>
+</html>
